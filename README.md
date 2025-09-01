@@ -1,7 +1,6 @@
-# IDEN
-Campus Recruitment '26 Challenge 
-
 # IdenHQ Challenge – Playwright Automation (Python)
+
+Campus Recruitment '26 Challenge 
 
 This repository contains a Python + Playwright solution that:
 
