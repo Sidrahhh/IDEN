@@ -32,7 +32,7 @@ Set credentials (either via .env or environment variables):
 ```bash
 cp .env.example .env
 ```
-# edit .env with your email/password for the challenge app
+edit .env with your email/password for the challenge app
 
 Run
 ```bash
@@ -44,12 +44,19 @@ python -m iden_bot \
 
 CLI options:
 --base-url     Challenge URL (default: https://hiring.idenhq.com/challenge)
+
 --username     Login username/email (or env IDEN_USERNAME)
+
 --password     Login password (or env IDEN_PASSWORD)
+
 --storage      Path to storage_state JSON (default: storage/iden_storage_state.json)
+
 --output       Output JSON file (default: products.json)
+
 --headless     "true" or "false" (default: true)
+
 --submit-url   Optional GitHub repository URL to submit on the "Submit Script" page
+
 --timeout      Default element timeout in ms (default: 15000)
 
 
