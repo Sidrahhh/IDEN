@@ -34,7 +34,6 @@ cp .env.example .env
 ```
 edit .env with your email/password for the challenge app
 
-Run
 ```bash
 python -m iden_bot \
   --base-url https://hiring.idenhq.com/challenge \
@@ -43,6 +42,7 @@ python -m iden_bot \
 ```
 
 CLI options:
+
 --base-url     Challenge URL (default: https://hiring.idenhq.com/challenge)
 
 --username     Login username/email (or env IDEN_USERNAME)
